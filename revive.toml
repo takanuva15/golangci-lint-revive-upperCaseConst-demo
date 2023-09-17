@@ -1,0 +1,4 @@
+[rule.package-comments]
+
+[rule.var-naming]
+  arguments = [[], [], [{upperCaseConst=true}]]

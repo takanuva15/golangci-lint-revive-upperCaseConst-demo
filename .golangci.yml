@@ -1,0 +1,14 @@
+linters-settings:
+  revive:
+    rules:
+      - name: unexported-return
+        disabled: true
+      - name: var-naming
+        arguments:
+          - []
+          - []
+          - [{upperCaseConst=true}]
+
+linters:
+  enable:
+    - revive
